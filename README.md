@@ -9,7 +9,8 @@ Ekşi Sözlük her sene yılbaşında önceki senenin en beğenilen entrileri ya
 
 Bu listeyi bir txt dosyasına kaydedip Main.java sınıfındaki inputFile ve outputFile değerlerini değiştirerek entrileri inderebilirsiniz. 
 
-private final String inputFile = "buraya/txt/dosyasi/gelecek.txt";
+private final String inputFile = "buraya/txt/dosyasi/gelecek.txt"; 
+
 private final String inputFile = "entriler/buraya/kaydedilecek.xml";
 
 Kodu çalıştırmak için Jericho HTML Parser'ı projeye eklemeniz gerekiyor. (http://jericho.htmlparser.net/docs/index.html) 
