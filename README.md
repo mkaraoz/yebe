@@ -1,4 +1,4 @@
-# yebe
+# yebe (Yılın En Beğenilen Entrileri)
 
 Ekşi Sözlük her sene yılbaşında önceki senenin en beğenilen entrileri yayınlıyor. Liste aşağıdaki formatta oluyor:
 
