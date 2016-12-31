@@ -46,14 +46,17 @@ public class Main {
 			String line = br.readLine();
 			while (line != null) {
 				if (line.trim().equals(""))
-					continue;
+				{ 
+					line = br.readLine();
+				} 
 				else {
 					int indexOfNumberSign = line.indexOf('#');
 					int indexOfCloseBracket = line.indexOf(')');
 					line = line.substring(indexOfNumberSign + 1, indexOfCloseBracket).trim();
+					System.out.println(line);
 					entryNumbers.add(Integer.valueOf(line));
-				}
-				line = br.readLine();
+					line = br.readLine(); 
+				} 
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
